@@ -1,0 +1,6 @@
+test*.html
+test*.css
+test*.js
+.gitkeep
+autoCommit.sh
+plan.md
