@@ -1,0 +1,175 @@
+/* 把我们所有标签的内外边距清零 */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* em 和 i 斜体的文字不倾斜 */
+
+em, i {
+    font-style: normal
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
+li{
+    list-style: none;
+}
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+/*******************************************/
+/* 中间轮播图板块 */
+
+.fs .fs_inner .fs_col2 {
+    float: left;
+    width: 590px;
+    height: 480px;
+    margin-right: 10px;
+}
+
+.fs .fs_inner .fs_col2 .focus {
+    position: relative;
+    margin-top: 10px;
+    height: 470px;
+    overflow: hidden;
+}
+
+.fs .fs_inner .fs_col2 .focus .focus__main .focus-slider {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+/* 设置左边的大小 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper {
+    overflow: hidden;
+    float: left;
+    width: 590px;
+    margin-right: 10px;
+}
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider {
+    position: relative;
+    height: 470px;
+}
+
+/* 轮播图 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider img {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* 小圆点 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_indicators {
+    position: absolute;
+    text-align: center;
+    left: 30px;
+    bottom: 20px;
+}
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_indicators i {
+    display: block;
+    float: left;
+    background-color: rgba(255, 255, 255, .4);
+    border: 1px solid rgba(0, 0, 0, .05);
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+/* 左右按钮 */
+
+/* 左 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_prevous, .fs .fs_inner .fs_col2 .focus .focus__main .focus-slider .sliderRecommend .slider_prevous {
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    left: 0px;
+    top: 50%;
+    width: 25px;
+    height: 35px;
+    margin-top: -17px;
+}
+
+/* 鼠标经过 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_prevous:hover i, .fs .fs_inner .fs_col2 .focus .focus__main .focus-slider .sliderRecommend .slider_prevous:hover i {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_prevous i, .fs .fs_inner .fs_col2 .focus .focus__main .focus-slider .sliderRecommend .slider_prevous i {
+    font-family: 'icomoon';
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgba(0, 0, 0, .15);
+    color: rgba(255, 255, 255, .8);
+}
+
+/* 右 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_next, .fs .fs_inner .fs_col2 .focus .focus__main .focus-slider .sliderRecommend .slider_next {
+    position: absolute;
+    cursor: pointer;
+    text-align: right;
+    right: 0px;
+    top: 50%;
+    width: 25px;
+    height: 35px;
+    margin-top: -17px;
+}
+
+/* 鼠标经过 */
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_next:hover i, .fs .fs_inner .fs_col2 .focus .focus__main .focus-slider .sliderRecommend .slider_next:hover i {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+.fs .fs_inner .fs_col2 .focus .focus__main .sliderBannerWrapper .slider .slider_next i, .fs .fs_inner .fs_col2 .focus .focus__main .focus-slider .sliderRecommend .slider_next i {
+    display: block;
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 35px;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgba(0, 0, 0, .15);
+    color: rgba(255, 255, 255, .8);
+}

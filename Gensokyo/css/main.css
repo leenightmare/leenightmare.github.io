@@ -1,0 +1,374 @@
+a {
+  cursor: pointer;
+}
+
+body {
+  /* background-color: #c6d7fa; */
+}
+
+.w {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+/***************************/
+
+.topBox {
+  position: relative;
+  /* background-color: #006cae; */
+  height: 90px;
+  margin-top: 20px;
+  padding: 30px 15px;
+}
+
+/* logo */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 搜索栏 */
+.topBox .searchBox {
+  position: absolute;
+  width: 360px;
+  margin: 0 10px;
+  left: 50%;
+  margin-left: -175px;
+}
+
+.topBox .searchBox .search-keyword {
+  width: 300px;
+  height: 35px;
+  font-size: 18px;
+  outline: none;
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-right: none;
+}
+
+.topBox .searchBox .search-btn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 60px;
+  height: 100%;
+  line-height: 35px;
+  background-color: #e7e7e7;
+  text-align: center;
+  border: 2px solid;
+}
+
+/* 菜单 */
+.navBox {
+  height: 380px;
+  background-color: #fefbfc;
+  margin-top: 40px;
+  box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);
+}
+
+/* bgm */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.bgmlist {
+  width: 410px;
+  margin-right: 55px;
+}
+
+.bgmlist .title {
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.bgmlist table {
+  margin-left: 5px;
+  box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.bgmlist th {
+  height: 48px;
+  background-color: #f7f7f7;
+  text-align: left;
+  color: #666;
+}
+
+.bgmlist .w1 {
+  width: 110px;
+  border-right: 2px solid #e7e7e7;
+}
+
+.bgmlist .musicName {
+  width: 300px;
+  padding: 8px 10px;
+  font-size: 20px;
+}
+
+.bgmlist .bgm-item {
+  /* height: 40px; */
+  background-color: rgba(47, 47, 47, 0.8);
+}
+
+/* 偶数变色 */
+.bgm-item:nth-child(even) {
+  background-color: rgba(47, 47, 47, 0.4);
+}
+
+.bgmlist td {
+  padding: 6px 10px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.bgmlist .hd .ply {
+  float: right;
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+  background: url(../upload/playbar.png);
+  background-position: 0 -203px;
+}
+
+.bgmlist .hd .num {
+  width: 25px;
+  margin-left: 2px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.bgmlist .name-item {
+  width: 100%;
+  float: left;
+}
+
+.bgmlist .name-item .tt {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* 右边 */
+.navlistBox {
+  width: 935px;
+  /* margin-left: 65px; */
+  background-color: #fefbfc;
+}
+
+.navlistBox h2 {
+  font-size: 16px;
+  border: none;
+  margin: 0px 10px 20px 10px;
+  padding: 6px 0 4px 32px;
+  background: url(../upload/header-bomb.svg) no-repeat;
+  background-size: 32px;
+  background-position: left 75%;
+}
+
+.navlistBox .mw-headline {
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+.navlist-item {
+  border-radius: 10px;
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);
+}
+
+/* 上面放图片的盒子 */
+.navlist-item .navlist-imagebox {
+  border-top: #f0ac8e solid 10px;
+  border-radius: 10px 10px 0 0;
+  width: 218px;
+  height: 110px;
+  background-color: #eeeeee;
+}
+
+.navlist-item .navlist-imagebox .img-fullwidth {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* 下面作为标题的盒子 */
+.navlist-item .navlist-linkbox {
+  border-radius: 0 0 10px 10px;
+  width: 218px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navlist-linkbox>a {
+  display: block;
+  color: #808080fc;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.item-bottom {
+  margin-bottom: 8px;
+}
+
+.item-right {
+  margin-right: 5px;
+}
+
+.item-left {
+  margin-left: 5px;
+}
+
+
+
+/* ******************************** */
+
+.picList .bigPicBox {
+  float: left;
+  width: 455px;
+  height: 395px;
+  margin: 5px;
+  background-color: #f5f5f5;
+  /* box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%); */
+}
+
+#bigPicMsg {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+#bigPicMsg p {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 90%;
+}
+
+#mp4 {
+  width: 455px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+/* 列表展示 */
+.headBox {
+  padding: 22px 0 20px;
+  line-height: 30px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.headBox h2 {
+  float: left;
+  font-size: 26px;
+}
+
+.tabMenu {
+  margin-left: 135px;
+  height: 30px;
+  width: auto;
+}
+
+.tabMenu li {
+
+  width: 47px;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  color: #333;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 16px
+}
+
+
+.tabMenu li:hover {
+  background-color: red;
+  color: #fff;
+}
+
+
+/* 具体内容li */
+.picList {
+  height: 410px;
+  background-color: #fefbfc;
+  box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);
+  margin-bottom: 50px;
+}
+
+.picList li {
+  float: left;
+  width: 225px;
+  height: 185px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.picList li:nth-child(4n) {
+  margin-right: 0;
+}
+
+
+.picList li .img {
+  display: block;
+  width: 225px;
+  height: 150px;
+}
+
+.picList li .img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.picList li .titCont {
+  /* display: inline-block; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* max-width: 90%; */
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid orange;
+  background-color: skyblue;
+
+}
+
+.picList li .titCont .titA {
+  display: block;
+  font-size: 18px;
+}
+
+
+/**/
+/* 返回顶部 */
+#backTop {
+  display: none;
+  z-index: 233;
+  position: fixed;
+  background-image: url(../upload/backTop.png);
+  background-repeat: no-repeat;
+  right: 0px;
+  bottom: 10px;
+  width: 130px;
+  height: 278px;
+  transition: all 1s;
+}
+
+#backTop a {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+

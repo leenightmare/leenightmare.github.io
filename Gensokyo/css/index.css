@@ -1,0 +1,109 @@
+body {
+    background: url(../image/bg.gif) no-repeat;
+    background-size: cover;
+
+}
+
+/* 头部播放器 */
+#topTool {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#player {
+    cursor: pointer;
+    background: url(../image/music.png);
+    width: 80px;
+    height: 80px;
+    transform: rotate(0deg);
+}
+
+
+/* 中央头像 */
+#headBox {
+    position: relative;
+}
+
+#headBox #header {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 180px;
+    left: 50%;
+    margin-left: -80px;
+    border-radius: 50%;
+    /* background-color: pink; */
+}
+
+#headBox #header img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* 标题 */
+#titleBox {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 400px;
+    margin-left: -180px;
+}
+
+#titleBox #title {
+    width: 360px;
+    font-size: 50px;
+}
+
+#titleBox #title a {
+    display: block;
+    color: red;
+    font-family: 'SimHei';
+    width: 100%;
+    height: 100%;
+}
+
+/* 分割线 */
+#hr {
+    position: absolute;
+    border-bottom: skyblue solid 2px;
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+    margin-top: 20px;
+}
+
+/* 菜单栏 */
+#navlist {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -140px;
+    width: 280px;
+}
+
+.nav-item {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 21px;
+    line-height: 50px;
+    border: solid #242400 1px;
+    margin-bottom: 20px;
+}
+
+.nav-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(36, 72, 85, 0.4);
+}
+
+.nav-item a:hover {
+    background-color: #dadee7;
+    color: skyblue;
+    font-weight: 700;
+}

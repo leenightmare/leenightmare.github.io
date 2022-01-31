@@ -1,0 +1,65 @@
+.container {
+    height: 800px;
+    background-color: skyblue;
+    overflow: hidden;
+
+}
+.videoBox {
+    width: 900px;
+    height: 650px;
+    background-color: #fff;
+    margin: 50px auto;
+    box-shadow: 0px 0px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.box {
+    height: 600px;
+    background:#000;
+}
+
+
+.dm {
+    height: 50px;
+    background-color: #f2f2f2;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 50px;
+}
+
+.dm-box {
+    float: right;
+}
+
+.dm-input {
+    outline: none;
+    height: 35px;
+    width: 450px;
+    border: 1px solid #00a1d6;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.hd {
+    position: relative;
+
+}
+
+.dm-btn {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    width: 70px;
+    height: 35px;
+    background-color: #00a1d6;
+    border: 1px solid #00a1d6;
+    border-left: none;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+#video {
+    width: 900px;
+    height: 600px;
+}

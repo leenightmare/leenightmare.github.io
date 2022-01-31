@@ -1,0 +1,71 @@
+* {
+    cursor: auto;
+}
+
+body {
+    background: url(../image/bg.gif) no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 400px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 180px auto;
+}
+
+.regist_box {
+    padding: 15px;
+}
+
+.tit {
+    text-align: center;
+    color: #fee8ec;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.item {
+    margin-bottom: 25px;
+}
+
+.form .item label {
+    font-size: 18px;
+    color: #fee8ec;
+}
+
+.form .item .itxt {
+    height: 40px;
+    width: 245px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 0px 10px 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid rgb(227, 227, 227);
+    color: #fff;
+}
+
+#sub_btn {
+    background-color: rgba(254, 232, 236, 0.8);
+    border: none;
+    color: orange;
+    margin-top: 5px;
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+h4 {
+    text-align: center;
+    cursor: pointer;
+}
+
+h4 a{
+    cursor: pointer;
+}
