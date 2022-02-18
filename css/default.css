@@ -1,5 +1,5 @@
 /* 返回顶部 */
-.back-to-top {
+/* .back-to-top {
 	position: fixed;
 	display: none;
 	font-size: 2em;
@@ -18,6 +18,26 @@
 
 .back-to-top:hover {
 	background-position-y: calc(-185%);
+	transition: all 0.3s linear;
+} */
+
+
+.back-to-top {
+	background-image: url(../assets/icon/back-to-top.svg);
+	background-repeat: no-repeat;
+	display: none;
+	position: fixed;
+	right: 0px;
+	bottom: 10px;
+	width: 130px;
+	height: 278px;
+	transition: all 1s;
+	border: none;
+}
+
+.back-to-top:hover {
+	cursor: pointer;
+	background-position-x: calc(80%);
 	transition: all 0.3s linear;
 }
 

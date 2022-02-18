@@ -16,7 +16,7 @@ function getSearchParameter(str) {
 			document.documentElement.scrollTop = 0;
 		})
 		window.addEventListener("scroll", function() {
-			if (window.scrollY > 100) {
+			if (window.scrollY > 200) {
 				element.style.display = "block";
 			} else {
 				element.style.display = "none"

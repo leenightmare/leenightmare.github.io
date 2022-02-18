@@ -19,7 +19,20 @@
 		}
 	};
 
-	// 插入
+	//填充名称（头像下面的那个呢称）
+	//console.log("------------>" + gitblog.github.username + "<-------------");
+	$(".username").text(gitblog.github.username)
+	
+	//填充头像
+	if ($(".userhead").length > 0) { 
+		$(".userhead")[0].src = gitblog.github.userhead;
+		console.log("原本的QQsrc" + $(".userhead")[0].src);
+		console.log("修改之后的github" + gitblog.github.userhead);
+		
+	}
+
+
+	// 插入博客内容
 	for (let i of articles) {
 		let str =
 			'<a href="articles/{href}"><div class="ratio ratio-16x9 rounded-3 mb-4 img-fluid bg-size-cover" style="background-image: url(articles/assets/{background}/background.jpg);background-color: #DDD;"><div><h1 class="col-12 bg-white bg-opacity-75 p-2 text-truncate">{title}</h1></div></div></a>'

@@ -14,6 +14,7 @@
 			githubAPI.username = /.*\/(.*)\.github\.io.*/.exec(location.href)[1]
 			console.log("username未设置,从链接中获取到username为", githubAPI.username);
 		};
+		githubAPI.userhead = githubAPI.userhead.replace(/{username}/g, githubAPI.username);
 		githubAPI.articles = githubAPI.articles.replace(/{username}/g, githubAPI.username);
 		githubAPI.article = githubAPI.article.replace(/{username}/g, githubAPI.username);
 		githubAPI.background = githubAPI.article.replace(/{username}/g, githubAPI.username)
@@ -24,7 +25,7 @@
 				url: githubAPI.articles,
 				async: false,
 				headers: {
-					authorization: "Basic " + btoa(githubAPI.clientID + ":" + githubAPI.clientSecret),
+					authorization: "Basic " + btoa(githubAPI.clientID + ":" + githubAPI.clientSecret),   //????
 				},
 				success: function(result) {
 					for (let i = 0; i < result.length; i++) {
@@ -36,7 +37,7 @@
 			return articles;
 		}
 		// 返回String类型的文章内容
-		gitblog.getArticle = function(article) {
+		gitblog.getArticle = function(article) {  //参数从哪里来？？
 			let articleUrl = githubAPI.article.replace(/{article}/g, article);
 			return $.ajax({
 				async: false,

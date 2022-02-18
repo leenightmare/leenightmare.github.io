@@ -4,6 +4,8 @@ gitblog = {
 	"github": {
 		// 自定义域名必须填写username
 		"username": "leenightmare",
+		//用于获取用户的GitHub头像
+		"userhead":"https://avatars.githubusercontent.com/{username}",
 		// 一般不需要修改,用于自定义笔记位置
 		"articles": "https://api.github.com/repos/{username}/{username}.github.io/contents/articles",
 		// 一般不需要修改,用于自定义笔记位置
