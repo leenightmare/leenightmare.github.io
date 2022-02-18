@@ -26,9 +26,6 @@
 	//填充头像
 	if ($(".userhead").length > 0) { 
 		$(".userhead")[0].src = gitblog.github.userhead;
-		console.log("原本的QQsrc" + $(".userhead")[0].src);
-		console.log("修改之后的github" + gitblog.github.userhead);
-		
 	}
 
 
