@@ -25,7 +25,7 @@
 				url: githubAPI.articles,
 				async: false,
 				headers: {
-					authorization: "Basic " + btoa(githubAPI.clientID + ":" + githubAPI.clientSecret),   //????
+					authorization: "Basic " + btoa(githubAPI.clientID + ":" + githubAPI.clientSecret),   
 				},
 				success: function(result) {
 					for (let i = 0; i < result.length; i++) {

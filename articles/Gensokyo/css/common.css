@@ -6,6 +6,15 @@
     font-family: "Microsoft Yahei";
 }
 
+.snow{
+            color: #fff;
+            position: fixed;
+            font-size: 15px;
+            transform: translateX(0);
+            transform: translateY(0);
+            text-shadow: 20px 20px 10px #000000;
+}
+
 a {
     text-decoration: none;
 }

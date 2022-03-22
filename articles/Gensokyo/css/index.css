@@ -1,7 +1,7 @@
 body {
     background: url(../image/bg.jpg) no-repeat;
     background-size: cover;
-
+            overflow: hidden;
 }
 
 /* 头部播放器 */
