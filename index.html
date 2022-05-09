@@ -1,118 +1,21 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gitblog</title>
-
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-
-	<!-- JavaScript Library -->
-	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="config.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/gitblog.js" type="text/javascript" charset="utf-8"></script>
-</head>
-
-<body class="vh-100 d-flex flex-column">
-
-	<!-- Navigation -->
-	<nav class="sticky z-1050">
-		<div class="bg-white w-100">
-			<div class="col-12 col-xl-8 d-flex border-bottom m-auto navbar">
-				<div class="mx-auto my-1 mx-sm-1">
-					<form class="input-group">
-						<input name="search" placeholder="Search anything" class="form-control" />
-					</form>
-				</div>
-				<div class="mx-auto my-1 mx-sm-1 d-flex align-items-center">
-					<a href="index.html" class="me-1 fs-3 text-decoration-none text-secondary">
-						GitBlog
-					</a>
-					<button class="btn btn-outline-secondary d-block d-lg-none me-1 navbar-light show-toggle"
-						data-show-toggle="#sidebar">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-				</div>
-			</div>
-		</div>
-	</nav>
-
-	<!-- Main -->
-	<div class="flex-fill">
-		<div class="d-flex justify-content-center">
-			<div class="d-flex col-12 col-xl-8" data-toggle="#nav-toggle">
-				<div class="flex-fill p-4 flex-column">
-					<div id="articles" class="border-bottom"></div>
-
-					<!-- Articles -->
-					<div class="text-center pt-4">
-						<a class="pre-page text-decoration-none text-black btn">上一页</a>
-						<a class="next-page text-decoration-none text-black btn">下一页</a>
-					</div>
-				</div>
-				<div id="sidebar" class=" width-300 position-absolute end-0 top-0 position-lg-static d-none d-lg-block">
-					<div class="h-100 width-300 position-fixed show-toggle bg-white border-start z-1050 z-lg"
-						data-show-toggle="#sidebar">
-
-						<!-- Information -->
-						<div class="text-center">
-							<div class="col-4 mt-5 m-auto rounded-circle overflow-hidden">
-								<img class="userhead" src="" width="100%">
-							</div>
-							<div class="fw-bold fs-2 text-center my-2">
-								<strong class="username"></strong>
-							</div>
-							<div class="m-2">
-								<a href="https://github.com/leenightmare/" class="text-black text-decoration-none"
-									target="_blank">
-									Github
-								</a>
-							</div>
-							<div class="m-2">
-								<a href="mailto:1518674973@qq.com" class="text-black text-decoration-none">
-									<div>Mail</div>
-								</a>
-							</div>
-							<div class="m-2">
-								<a href="https://space.bilibili.com/15012020" class="text-black text-decoration-none"
-									target="_blank">
-									<div>Bilibili</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- 返回顶部 -->
-	<button class="back-to-top" style="background-color: rgba(0, 0, 0, 0);"></button>
-
-
-
-	<!-- Footer -->
-	<footer class="footer col-12 col-xl-8 m-auto p-2 border-top text-center bg-white">
-		<div>
-			Copyright 2021
-		</div>
-		<div>
-			<a href="https://github.com/leenightmare/git-blog/" class="text-decoration-none">GitBlog</a>
-			<a>powered by</a>
-			<a href="https://github.com/leenightmare" class="text-decoration-none" target="blank">leenightmare</a>
-		</div>
-		<div>
-			技术支持 by <a href="https://github.com/lisnote" class="text-decoration-none" target="blank">lisnote</a>
-		</div>
-	</footer>
-</body>
-
-<!-- JavaScript Action -->
-<script src="js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/default.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lispress</title>
+    <script src="/config.js"></script>
+    <script type="module" crossorigin src="/assets/@vue.3d13d801.js"></script>
+    <script type="module" crossorigin src="/assets/vue-router.e3b25c02.js"></script>
+    <script type="module" crossorigin src="/assets/lispress.9248cfd1.js"></script>
+    <script type="module" crossorigin src="/assets/vue-demi.b3a9cad9.js"></script>
+    <script type="module" crossorigin src="/assets/pinia.225e4f8f.js"></script>
+    <script type="module" crossorigin src="/assets/main.9ea9f59b.js"></script>
+    <link rel="stylesheet" href="/assets/main.b9f07833.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
 </html>
